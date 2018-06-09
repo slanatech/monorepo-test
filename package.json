@@ -4,7 +4,8 @@
     "packages/*"
   ],
 	"scripts": {
-		"test": "lerna run test"
+      "bootsrtap": "lerna bootstrap",
+	  "test": "lerna run test"
 	},
 	"devDependencies": {
 		"lerna": "^2.11.0"

@@ -8,9 +8,10 @@
     "test": "echo 'TEST TODO SERVER'"
   },
   "dependencies": {
-    "bunyan": "^1.8.12",
-    "bunyan-rotating-file-stream": "^1.6.3",
-    "@monorepo-test/common": "^0.1.0"
+    "express": "^4.16.3",
+    "body-parser": "^1.18.3",
+    "@monorepo-test/common": "^0.1.0",
+    "@monorepo-test/ui": "^0.1.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
