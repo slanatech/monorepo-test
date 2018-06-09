@@ -1,0 +1,19 @@
+{
+  "name": "@monorepo-test/server",
+  "version": "0.1.0",
+  "description": "test server",
+  "author": "<sv2@github.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo 'TEST TODO SERVER'"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "bunyan-rotating-file-stream": "^1.6.3",
+    "@monorepo-test/common": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
